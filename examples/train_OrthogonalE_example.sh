@@ -38,7 +38,7 @@ python run.py \
     --neg_sample_size 300 \
     --init_size 0.001 \
     --learning_rate_entity 0.5 \
-    --learning_rate_relation 0.05 \
+    --learning_rate_relation 0.06 \
     --gamma 0.0 \
     --bias learn \
     --dtype double \
