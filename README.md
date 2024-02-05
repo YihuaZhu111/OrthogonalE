@@ -18,7 +18,7 @@ This project is based on [AttH](https://github.com/HazyResearch/KGEmb) [2] and [
 1. environment (we need torch, numpy, tqdm, geoopt):
 
 ```bash
-conda create --name OrthogonalE_env python=3.8
+conda create --name OrthogonalE_env python=3.7
 ```
 ```bash
 source activate OrthogonalE_env
