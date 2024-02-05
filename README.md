@@ -19,8 +19,17 @@ This project is based on [AttH](https://github.com/HazyResearch/KGEmb) [2] and [
 
 ```bash
 conda create --name OrthogonalE_env
+```
+```bash
 source activate OrthogonalE_env
+```
+```bash
 pip install -r requirements.txt
+```
+We can manually install the requirements if it cannot work.
+
+```bash
+pip intall numpy/torch/tqdm/geoopt
 ```
 
 2. set environment variables.
