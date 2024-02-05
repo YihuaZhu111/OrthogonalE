@@ -29,7 +29,7 @@ pip install -r requirements.txt
 We can manually install the requirements if it cannot work.
 
 ```bash
-pip intall numpy/torch/tqdm/geoopt
+pip install numpy/torch/tqdm/geoopt
 ```
 
 2. set environment variables.
