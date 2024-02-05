@@ -1,7 +1,7 @@
 # OrthogonalE
 
 This is the PyTorch implementation of the [OrthogonalE](https://arxiv.org/abs/2401.05967) [1] model for knowledge graph embedding (KGE). 
-This project is based on [AttH](https://github.com/HazyResearch/KGEmb) [2] and [3H-TH](http://arxiv.org/abs/2305.13015) [3]. Thanks for their contributions.
+This project is based on [AttH](https://github.com/HazyResearch/KGEmb) [2] and [3H-TH](https://github.com/YihuaZhu111/3H-TH) [3]. Thanks for their contributions.
 
 
 ## Models
