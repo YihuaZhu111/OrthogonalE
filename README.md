@@ -3,6 +3,7 @@
 This is the PyTorch implementation of the [OrthogonalE](https://arxiv.org/abs/2401.05967) [1] model for knowledge graph embedding (KGE). 
 This project is based on [AttH](https://github.com/HazyResearch/KGEmb) [2] and [3H-TH](https://github.com/YihuaZhu111/3H-TH) [3]. Thanks for their contributions.
 
+The ACL web: [OrthogonalE](https://aclanthology.org/2024.findings-emnlp.987/)
 
 ## Models
 
@@ -150,12 +151,23 @@ python run.py \
 If you want to cite this paper or want to use this code, please cite the following paper:
 
 ```
-@article{zhu2024block,
-  title={Block-Diagonal Orthogonal Relation and Matrix Entity for Knowledge Graph Embedding},
-  author={Zhu, Yihua and Shimodaira, Hidetoshi},
-  journal={arXiv preprint arXiv:2401.05967},
-  year={2024}
+@inproceedings{zhu-shimodaira-2024-block,
+    title = "Block-Diagonal Orthogonal Relation and Matrix Entity for Knowledge Graph Embedding",
+    author = "Zhu, Yihua  and
+      Shimodaira, Hidetoshi",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.987",
+    pages = "16956--16972",
+    abstract = "The primary aim of Knowledge Graph Embeddings (KGE) is to learn low-dimensional representations of entities and relations for predicting missing facts. While rotation-based methods like RotatE and QuatE perform well in KGE, they face two challenges: limited model flexibility requiring proportional increases in relation size with entity dimension, and difficulties in generalizing the model for higher-dimensional rotations. To address these issues, we introduce OrthogonalE, a novel KGE model employing matrices for entities and block-diagonal orthogonal matrices with Riemannian optimization for relations. This approach not only enhances the generality and flexibility of KGE models but also captures several relation patterns that rotation-based methods can identify. Experimental results indicate that our new KGE model, OrthogonalE, offers generality and flexibility, captures several relation patterns, and significantly outperforms state-of-the-art KGE models while substantially reducing the number of relation parameters.",
 }
+
 ```
 
 ## Reference
